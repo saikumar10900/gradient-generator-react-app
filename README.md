@@ -1,5 +1,4 @@
 # Gradient Generator
-## Developed this app using react styled components
 
 ### Refer to the image below:
 
