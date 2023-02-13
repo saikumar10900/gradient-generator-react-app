@@ -26,9 +26,9 @@ const gradientDirectionsList = [
 class GradientGenerator extends Component {
   state = {
     activeGradientDirection: gradientDirectionsList[0].value,
-    fromColorInput: '#8ae323',
-    toColorInput: '#014f7b',
-    gradientValue: `to ${gradientDirectionsList[0].value}, #8ae323, #014f7b`,
+    fromColorInput: '#000000',
+    toColorInput: '#001370',
+    gradientValue: `to ${gradientDirectionsList[0].value}, #000000, #001370`,
   }
 
   onGenerate = () => {
